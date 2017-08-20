@@ -1,0 +1,12 @@
+{
+    "name": "king192/phpcache",
+    "description": "php cache from thinkphp5",
+    "type": "library",
+    "license": "apache2.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "king192\\phpcache\\": "src/"
+        }
+    }
+}
