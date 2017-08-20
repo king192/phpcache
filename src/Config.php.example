@@ -16,7 +16,7 @@ class Config {
 
     public static function get($name) {
     	$arr_data  = self::$cache;
-    	if (false !== strpos('.', $name)) {
+    	if (false !== strpos($name, '.')) {
     		$arr_kv = explode('.', $name);
     		return $arr_data[$arr_kv[1]];
     	}
