@@ -47,7 +47,7 @@ class Cache
             $class = false !== strpos($type, '\\') ? $type : '\\king192\\phpcache\\cache\\driver\\' . ucwords($type);
 
             // 记录初始化信息
-            App::$debug && Log::record('[ CACHE ] INIT ' . $type, 'info');
+            // App::$debug && Log::record('[ CACHE ] INIT ' . $type, 'info');
             if (true === $name) {
                 return new $class($options);
             } else {
