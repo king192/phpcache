@@ -20,7 +20,7 @@ class Cache
     public static $readTimes   = 0;
     public static $writeTimes  = 0;
 
-    protected 
+    // protected 
 
     /**
      * 操作句柄
